@@ -42,7 +42,7 @@ const Urban = () => {
       <div className="img1" style={{height:"55%",width:"20%",background:"rgb(8, 8, 46)", display:"flex",alignItems:"center" , justifyContent:"center",borderRadius:"15px", margin:"50px 0px 0px 50px "}}>
         <img src={image} alt=""  style={{ width:"70%" }}/>
      </div>
-      <div className="img2" style={{height:"38%",width:"20%",background: "rgb(113, 185, 219)",background: "rgb(139, 0, 57)", display:"flex",alignItems:"center" , justifyContent:"center",borderRadius:"15px", margin:"0px 0px 0px 30px "}}>
+      <div className="img2" style={{height:"38%",width:"20%",background: "rgb(113, 185, 219)", display:"flex",alignItems:"center" , justifyContent:"center",borderRadius:"15px", margin:"0px 0px 0px 30px "}}>
         <img src={image} alt=""  style={{ width:"70%" }}/>
      </div>
      <div className="img3" style={{height:"38%",width:"20%",background:"rgb(1, 169, 207)", display:"flex",alignItems:"center" , justifyContent:"center",borderRadius:"15px", margin:"25px 0px 0px 30px "}}>

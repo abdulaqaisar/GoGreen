@@ -214,8 +214,8 @@ const Header = () => {
               className="navlist"
               style={{ display: "flex", marginLeft: "90px" }}
             >
-              <a href="">Home</a>
-              <a href="">Category</a>
+              <a href="/">Home</a>
+              <a href="/Category">Category</a>
               <a href="">Go Green</a>
               <a href="">Luxury Furnitures</a>
               <a href="">By Style </a>

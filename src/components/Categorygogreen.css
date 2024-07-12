@@ -1,0 +1,29 @@
+.cgogreen{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 55vh;
+    /* border: 1px solid #000000; */
+    border-radius: 30px;
+    background: #EAFFEF;
+    margin: 30px 0px 0px 70px;
+}
+.cleftgreen{
+    width: 46%;
+    /* border: 1px solid navy; */
+    margin: 20px 0px 0px 60px;
+}
+.crightgreen{
+    width: 46%;
+    /* border: 1px solid navy; */
+}
+
+.linkhead{
+    display: flex;
+    border: 1px solid black;
+    width: 10%;
+    height: 30px;
+    margin: 40px 0px 0px 90px;
+    align-items: center;
+    justify-content: center;
+}
