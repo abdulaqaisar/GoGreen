@@ -1,0 +1,97 @@
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .Ins {
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .line1 {
+    width: 33%;
+    height: 2px;
+    background-color: #696262;
+    margin-right: 20px;
+    margin-top: 35px;
+  }
+  .line2 {
+    width: 33%;
+    height: 2px;
+    background-color: #696262;
+    margin-left: 10px;
+    margin-top: 35px;
+  }
+
+.urban{
+  width: 96%;
+  /* border: 1px solid black; */
+  display: flex ;
+  margin-top: 50px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.urbanleft{
+  width: 48%;
+  /* border: 1px solid black; */
+}
+.urbanleft h2{
+  font-size: 32px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 80px 100px 0px;
+  color: hsl(140, 80%, 35%);
+  transition: 0.5s ease-in-out;
+}
+.urbanleft h2:hover
+{
+  transform: scale(1.05);
+  color:hsl(140, 50%, 49%) ;
+}
+
+.urbanleft p{
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px 100px 100px;
+  color: hsl(0, 2%, 22%);
+  transition: transform 0.3s ease , color 0.3s ease;
+}
+
+.urbanleft p:hover
+{
+  transform: scaleX(1.05);
+  color: hsl(0, 2%, 18%);
+}
+.urbanright{
+  width: 48%;
+  border-left: 10px solid #dbdbdb96;
+  height: 100vh;
+}
+.imgsec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  width: 80%;
+  height: 70vh;
+  background: rgb(251, 251, 242);
+  transition: transform 0.3 ease;
+  transition: transform 0.3s ease , color 0.3s ease;
+}
+.imgsec:hover{
+  transform: scale(1.05);
+}
+
+
+.imagegroup{
+  position: relative;
+  width: 98%;
+  height: 100vh;
+  border: 1px solid rgb(1, 169, 207) ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:0;
+}

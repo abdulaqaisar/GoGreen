@@ -1,0 +1,34 @@
+.faq{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.faqleft{
+    width: 50%;
+    /* border: 1px solid black; */
+    height: 100vh;
+    margin-top: -50px;
+}
+.faqitem{
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.faqitemright{
+    display: flex;
+    align-items: center;
+    /* float: right; */
+    font-size: large;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+.faqitem img{
+    margin-right: 10px;
+}
+.faqitem p{
+    width: 80%;
+    margin-top: -20px;
+}

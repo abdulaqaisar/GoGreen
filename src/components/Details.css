@@ -1,0 +1,199 @@
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Ins {
+  font-family:monospace;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+.line1 {
+  width: 33%;
+  height: 2px;
+  background-color: #696262;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+.line2 {
+  width: 33%;
+  height: 2px;
+  background-color: #696262;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 66%;
+    text-align: center;
+    padding-left: 230px ;
+    color: #4c4c4c;
+    margin-bottom: 80px;
+}
+.productbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+} 
+
+.viewbtn {
+    width: 280px;
+    height: 60px;
+    background: #449f5a;
+    color: #fff;
+    border-radius: 8px;
+    text-align:center;
+  }
+  .viewbtn:hover {
+    background: #5bba77;
+    cursor: pointer;
+  }
+  .viewbtn span {
+    font-size: medium;
+    font-weight: 600;
+    font-family:sans-serif;
+    /* margin-bottom: 80px; */
+}
+.ic{
+    font-size: large;
+    margin-right: 2px;
+}
+
+.productbranding{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: row;
+}
+.leftside{
+    display:flex;
+    flex-direction: column;
+    font-weight: bolder;
+    width: 21%;
+    font-size: xx-large;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+.branding{
+    height: 130px;
+    margin-top: 0px;
+    font-weight: 900;
+}
+.right{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.right1{
+    margin-left: 80px;
+    flex-direction: column;
+    width: 29%;
+    margin-left: 80px;
+    transition: all .5s ease-in-out;
+    border: transparent;
+}
+.right1:hover{
+    border: 1px solid rgb(203, 203, 203);
+    transform: scaleY(1.02);
+}
+.right2:hover{
+    border: 1px solid rgb(203, 203, 203);
+    transform: scale3d(1.05)
+}
+.right1 h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 15px 0px 15px ;
+}
+.right1 p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #696262;
+    margin: 20px 15px 10px 15px ;
+}
+.right2{
+    margin-left: 30px;
+    border: 1px solid rgb(203, 203, 203);
+    flex-direction: column;
+    width: 29%;
+    transition: all .5s ease-in-out;
+    border: transparent;
+}
+.right2 h2{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 15px 0px 15px ;
+}
+.right2 p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #696262;
+    margin: 20px 15px 10px 15px ;
+}
+.righthead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px 0px 15px;
+}
+.righthead h1{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+.righthead span{
+    font-size: 45px;
+    color: rgb(95, 90, 90);
+    font-weight: 700;
+}
+
+.productbrandingmore{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.rightcircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(122, 121, 121);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+}
+.rightcircle span>h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: #696262;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+    overflow: hidden;
+}
+
+.rightcircle:hover{
+    transition: 0.9s ease-in-out;
+    background-color: #4bc86b;
+    color: white;
+    cursor: pointer;
+}
+
+.rightcircle h2:hover{
+    color: whitesmoke;
+}

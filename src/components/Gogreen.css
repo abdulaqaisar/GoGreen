@@ -1,0 +1,33 @@
+.gogreen{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid #000000; */
+    border-radius: 30px;
+    background: #EAFFEF;
+    margin: 70px;
+}
+.leftgreen{
+    width: 46%;
+    /* border: 1px solid navy; */
+    margin: 75px 0px 0px 60px;
+}
+.rightgreen{
+    width: 46%;
+    /* border: 1px solid navy; */
+}
+.btngreen{
+    border-radius: 10px;
+    font-size: large;
+    width: 180px;
+    height: 55px;
+    margin-top: 40px;
+    font-weight: 600;
+    color: white;
+    background: #449F5A;
+    border: none;
+}
+.btngreen:hover{
+    background: #6AD37F;
+}

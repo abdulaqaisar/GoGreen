@@ -1,0 +1,124 @@
+
+.contactus{
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.notebox{
+    position: absolute;
+    margin: 10% 0px 0px 50px;
+    border-radius: 10px;
+    background: #449F5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.notebox h2{
+    font-size: 32px;
+    /* font-weight: 800; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 0px 20px;
+}
+.notebox p{
+    font-size: 18px;
+    /* font-weight: 600;  */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 30px;
+}
+
+.contactbox{
+    width: 65%;
+    padding: 60px;
+     margin-left: 35%;
+    box-shadow: rgba(10, 10, 11, 0.6) 0px 7px 29px 0px;
+}
+.contacttop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+.contactins {
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #449F5A;
+  }
+.contactline1 {
+    width: 35%;
+    height: 2px;
+    background-color: #696262;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+.contactline2 {
+    width: 35%;
+    height: 2px;
+    background-color: #696262;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  .inputrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 20px 30px 0px 30px;
+  }
+  .inputrow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .infoinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+  }
+
+
+  .contactbtn {
+    margin: 30px;
+    width: 90%;
+    margin: 50px 0px 0px 280px
+  }
+  .cbtn {
+    height: 51px;
+    width: 150px;
+    border-radius: 6px;
+    color: #129f41;
+    margin-right: 20px;
+  }
+  #cbtn1{
+      background-color: #ffffff;
+      font-weight: 600;
+      font-size: 20px;
+      border: 1px solid #446F5A;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #cbtn1:hover {
+    color: #585656;
+    background: #F2F2F2;
+    cursor: pointer;
+    border: transparent;
+  }
+  
+  #cbtn2{
+      border: none;
+      background: #129f41;
+      color: #F3FFF6;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #cbtn2:hover{
+      background: #6AD37F;
+  }
