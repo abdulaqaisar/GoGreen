@@ -1,0 +1,60 @@
+.glefthero {
+  height: 80vh;
+  width: 50%;
+  padding: 70px 0px 0px 30px;
+}
+.grighthero {
+  height: 10vh;
+  width: 40%;
+}
+.glefthero h1 {
+  font-weight: 700;
+  font-size: 50px;
+  width: 90%;
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+.glefthero p {
+  font-weight: 300;
+  font-size: 23px;
+  width: 90%;
+  color: #1b1c1b;
+  font-family: sans-serif;
+  margin-top: 0;
+}
+
+.gherobtn {
+  margin: 30px;
+  width: 90%;
+}
+.gbtn {
+  height: 51px;
+  width: 201px;
+  font-weight: bolder;
+  font-size: medium;
+  font-family: "Roboto";
+  border-radius: 6px;
+  color: rgb(63, 63, 63);
+  margin-left: 30px;
+}
+#gbtn2 {
+  border: none;
+  background-color: #449f5a;
+  color: #f3fff6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#gbtn2:hover {
+  background: #313231;
+}
+.gheroimg {
+  display: block;
+  margin-top: 2.6em;
+  height: 338px;
+  width: 539px;
+  transition: all 0.5s ease-in-out;
+}
+
+.gheroimg:hover {
+  transform: scale(1.05);
+}

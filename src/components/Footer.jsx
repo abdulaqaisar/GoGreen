@@ -42,7 +42,7 @@ const Footer=()=>{
                             <h1>CONTACT US</h1>
                             <h3><MdPhone style={{ fontSize:"24px"  , color:"white" }}/></h3>
                             <h3><MdOutlineMailOutline style={{ fontSize:"24px" , color:"white" }}/></h3>
-                            <h3><ImLocation2 style={{ fontSize:"24px" , color:"white" , color:"white" }}/></h3>
+                            <h3><ImLocation2 style={{ fontSize:"24px" , color:"white" }}/></h3>
                             <h3><IoTimerSharp style={{ fontSize:"24px" , color:"white" }}/></h3>
                             <h2>Follow Us On: </h2>
                         </div>

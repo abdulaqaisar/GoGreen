@@ -1,0 +1,67 @@
+.ihero{
+    width: 100%;
+  }
+.ilefthero {
+    height: 100vh;
+    width: 100%;
+    padding: 30px 0px 0px 100px;
+  }
+  .irighthero {
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+  .ilefthero h1 {
+    font-weight: 600;
+    font-size: 2.4em;
+    width: 100%;
+    /* height: 100vh;  */
+    font-family: sans-serif;
+  }
+  .ilefthero p {
+    font-weight: 300;
+    font-size: 1.32em;
+    width: 90%;
+    /* height: 35vh; */
+    font-weight: 400;
+    color: #1b1c1b;
+    font-family: sans-serif;
+    /* margin-top: 0em; */
+    /* border: 1px solid black; */
+  }
+  
+  .iherobtn {
+    margin: 0%;
+    width: 90%;
+  }
+  .ibtn {
+    height: 51px;
+    width: 201px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: "Roboto";
+    border-radius: 6px;
+    color: rgb(63, 63, 63);
+  }
+  #ibtn2{
+      border: none;
+      background-color: #449f5a;
+      color: #F3FFF6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #ibtn2:hover{
+      background: #313231;
+  }
+  .iheroimg{
+      display:block;
+      margin-top: 2.6em;
+      transition: all .5s ease-in-out;
+      height: 2%;
+      width: 75%;
+  }
+  
+  
+  .iheroimg:hover{
+      transform: scale(1.05);
+  }
