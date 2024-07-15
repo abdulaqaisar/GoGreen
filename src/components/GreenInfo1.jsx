@@ -1,11 +1,10 @@
 import React from "react";
-import './GreenInfo1.css';
+import "./GreenInfo1.css";
 
-const GreenInfo1=({heading,image})=>{
-
-    return(
-        <>
-          <div
+const GreenInfo1 = ({ heading, image, isAbout , clr }) => {
+  return (
+    <>
+      <div
         className="i1hero"
         style={{
           display: "flex",
@@ -19,9 +18,7 @@ const GreenInfo1=({heading,image})=>{
             flexDirection: "column",
           }}
         >
-          <h1 style={{ height: "20vh", marginBottom: "18px" }}>
-          {heading}
-          </h1>
+          <h1 style={{ height: "20vh", marginBottom: "18px" ,color:clr }}>{heading}</h1>
           <ul>
             <li>The packaging alternatives we provide consumers also suit</li>
             <li>their demands and go above and beyond their expectations.</li>
@@ -32,20 +29,23 @@ const GreenInfo1=({heading,image})=>{
             <li>Manufactured with recycled materials</li>
             <li>Contain no toxic elements or materials</li>
           </ul>
-          <div className="i1herobtn">
-            <button
-              className="i1btn" id="i1btn2"
-            >
-              Shop Eco-friendly
-            </button>
-          </div>
+
+          {!isAbout ? (
+            <></>
+          ) : ( 
+            <div className="i1herobtn">
+              <button className="i1btn" id="i1btn2">
+                Shop Eco-friendly
+              </button>
+            </div>
+          )}
         </div>
         <div className="i1righthero">
-          <img src={image} alt="" className="i1heroimg"/>
+          <img src={image} alt="" className="i1heroimg" />
         </div>
       </div>
-        </>
-    )
-}
+    </>
+  );
+};
 
 export default GreenInfo1;

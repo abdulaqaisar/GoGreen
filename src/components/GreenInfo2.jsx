@@ -1,8 +1,8 @@
 import React from "react";
 import './GreenInfo2.css';
 
-const GreenInfo2=({heading,paragraph,image})=>{
-
+const GreenInfo2=({heading,paragraph,image,isAbout,clr})=>{
+  //  console.log(color);
     return(
         <>
           <div
@@ -23,10 +23,13 @@ const GreenInfo2=({heading,paragraph,image})=>{
             flexDirection: "column",
           }}
         >
-          <h1 style={{ height: "20vh", marginBottom: "18px" }}>
+          <h1 style={{color:clr, height: "20vh", marginBottom: "18px" }}>
           {heading}
           </h1>
           <p>{paragraph}</p>
+          {!isAbout ? (
+            <></>
+          ) : ( 
           <div className="i2herobtn">
             <button
               className="i2btn" id="i2btn2"
@@ -34,6 +37,7 @@ const GreenInfo2=({heading,paragraph,image})=>{
               Shop Eco-friendly
             </button>
           </div>
+          )}
         </div>
       </div>
         </>

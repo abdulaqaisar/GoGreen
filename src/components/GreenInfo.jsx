@@ -1,15 +1,13 @@
 import React from "react";
-import './GreenInfo.css';
+import "./GreenInfo.css";
 
-const GreenInfo=({heading,paragraph,image,height})=>{
-
+const GreenInfo = ({ heading, paragraph, image, height, isAbout, clr }) => {
   // console.log(h);
-    return(
-        <>
-          <div
+  return (
+    <>
+      <div
         className="ihero"
         style={{
-
           display: "flex",
           flexDirection: "row",
           background: "white",
@@ -22,24 +20,26 @@ const GreenInfo=({heading,paragraph,image,height})=>{
             flexDirection: "column",
           }}
         >
-          <h1 style={{ height:{height} , marginBottom: "18px" }}>
-          {heading}
+          <h1 style={{ height:  height , marginBottom: "18px", color: clr }}>
+            {heading}
           </h1>
           <p>{paragraph}</p>
-          <div className="iherobtn">
-            <button
-              className="ibtn" id="ibtn2"
-            >
-              Shop Eco-friendly
-            </button>
-          </div>
+          {!isAbout ? (
+            <></>
+          ) : (
+            <div className="iherobtn">
+              <button className="ibtn" id="ibtn2">
+                Shop Eco-friendly
+              </button>
+            </div>
+          )}
         </div>
         <div className="irighthero">
-          <img src={image} alt="" className="iheroimg"/>
+          <img src={image} alt="" className="iheroimg" />
         </div>
       </div>
-        </>
-    )
-}
+    </>
+  );
+};
 
 export default GreenInfo;

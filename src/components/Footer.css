@@ -47,3 +47,18 @@
   display: flex;
   color: white;
 }
+.social-icons1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  margin-right: 16px;
+  border-radius: 90%;
+  width: 30px;
+  height: 30px;
+}
+.social-icons1:hover {
+  color: rgb(106, 169, 95);
+  border: 2px solid rgb(117, 175, 117);
+  cursor: pointer;
+}

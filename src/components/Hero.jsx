@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import image from "../assets/images/herobox.png";
 
-const Hero = () => {
+const Hero = ({heading,heading1,paragraph}) => {
   return (
     <>
       <div
@@ -23,10 +23,10 @@ const Hero = () => {
           }}
         >
           <h1 style={{ height: "0px", marginBottom: "18px" }}>
-            Custom Printed
+            {heading}
           </h1>
-          <h1 style={{ height: "7px" }}>Premium Finishes</h1>
-          <p>One Step Solution For All Your Packaging Needs.</p>
+          <h1 style={{ height: "7px" }}>{heading1}</h1>
+          <p>{paragraph}</p>
           <div className="herobtn">
             <button
               className="btn" id="btn1"

@@ -49,19 +49,19 @@
   border: 2px solid rgb(117, 175, 117);
   cursor: pointer;
 }
-.right {
+.righttop {
   display: flex;
-  flex-direction: row;
-  /* border: 2px solid rgb(117, 175, 117); */
 }
-.right > div {
+.righttop > div {
   display: flex;
+  justify-content: center;
   align-items: center;
+  padding-right: 30px;
 }
-.right > div:hover {
+.righttop > div:hover {
   background: #f4f4f4;
 }
-.right > div a {
+.righttop > div a {
   text-decoration: none;
   color: #817e7e;
   font-size: large;
@@ -70,27 +70,27 @@
   padding-left: 25px;
 }
 
-.blog,
-.help {
+.blogtop,
+.helptop {
   /* border: 1px solid red; */
-  width: 80px;
+  width: 50px;
 }
-.contact {
+.contop {
   border-left: 1px solid #cdc8c8;
   border-right: 1px solid #cdc8c8;
 }
-.greenbtn {
+.greenbtntop {
   width: 150px;
   background: #449f5a;
   color: #fff;
   border: 1px solid #cdc8c8;
   font-size: medium;
 }
-.greenbtn:hover {
+.greenbtntop:hover {
   background: #6ad37f;
   cursor: pointer;
 }
-.greenbtn span {
+.greenbtntop span {
   margin-right: 30px;
 }
 .navlist a {

@@ -47,22 +47,22 @@ const Footer=()=>{
                             <h2>Follow Us On: </h2>
                         </div>
                         <div className="icon">
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaFacebook />
               </div>
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaInstagram />
               </div>
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaYoutube />
               </div>
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaPinterest />
               </div>
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaLinkedin />
               </div>
-              <div className="social-icons">
+              <div className="social-icons1">
                 <FaWhatsapp />
               </div>
             </div>

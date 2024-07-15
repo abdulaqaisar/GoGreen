@@ -1,0 +1,56 @@
+.newcontactform {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 110vh;
+  display: flex;
+}
+.newcontactleft {
+  width: 50%;
+  margin-left: 8%;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+
+.newcontactleft input {
+    width: 100%;
+    padding: 1%;
+    border: none;
+    outline: none;
+}
+.newcontactleft h2{
+    font-weight: 100;
+}
+.newcontactleft div {
+  border: 1px solid gray;
+  width: 70%;
+  padding: 1%; 
+}
+.newcontactleft input {
+  border: none;
+  width: 60%;
+}
+.newcontactright {
+  width: 60%;
+  height: 100vh;
+}
+.newsend{
+    outline: none;
+    border: none;
+    padding: 3%;
+    width: 40%;
+    margin-top: 5%;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.newcontact{
+    width: 90%;
+    display: flex;
+    height: 17vh;
+    flex-wrap: wrap;
+    font-size: medium;
+    /* border: 1px solid black; */
+    margin-top: 0px;
+}

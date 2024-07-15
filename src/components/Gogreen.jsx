@@ -35,7 +35,7 @@ const Gogreen = () => {
         </div>
       </div>
       <Pagehead
-        heading={"Brands That Trust Urban Boxes"}
+        heading={"Brands That Trust Urban"}
         paragraph={
           "Extravagant custom packaging helps thousands of ambitious customers to redefine and refine their businesses and transform their packaging to better serve their customers."
         }

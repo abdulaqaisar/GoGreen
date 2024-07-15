@@ -1,0 +1,25 @@
+.stylegreen{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 55vh;
+    /* border: 1px solid #000000; */
+    border-radius: 30px;
+    background: rgb(205, 246, 216);
+    margin: 30px 0px 0px 70px;
+}
+.styleleftgreen{
+    width: 46%;
+    /* border: 1px solid navy; */
+    margin: 20px 0px 0px 60px;
+}
+.stylerightgreen{
+    margin: 2% 0px 0px 17%;
+    width: 25%;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid navy; */
+
+}

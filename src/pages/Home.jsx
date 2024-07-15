@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Hero />
+      <Hero  heading={"Custom Printed Premium Finishes"}  paragraph={"One-step Solution for All Your Packaging Needs."} />
       <Details />
       <Contact />
       <Urban />

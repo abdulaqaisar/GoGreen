@@ -35,18 +35,18 @@ const Header = () => {
             </div>
           </div>
           {/* right side */}
-          <div className="right">
-            <div className="blog">
-              <a href="">Blog</a>
+          <div className="righttop">
+            <div className="blogtop">
+              <a href="/aboutus">Blog</a>
             </div>
-            <div className="contact">
-              <a href="">Contact Us</a>
+            <div className="contop">
+              <a href="/contactus">Contact Us</a>
             </div>
-            <div className="help">
-              <a href="">Help</a>
+            <div className="helptop">
+              <a href="/contactus">Help</a>
             </div>
-            <button className="greenbtn">
-              <span>Go Green</span>
+            <button className="greenbtntop">
+              <a href="/gogreen" style={{ textDecoration:"none" , color:"white" , fontWeight:"bold" }}><span>Go Green</span></a>
             </button>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Header = () => {
               src={image}
               alt="logo"
               className="logo"
-              style={{ height: "50px", margin: "20px 50px" }}
+              style={{ height: "50px", margin: "20px 0px 0px 110px" }}
             />
             {/* search bar */}
             <div
@@ -214,13 +214,13 @@ const Header = () => {
               className="navlist"
               style={{ display: "flex", marginLeft: "90px" }}
             >
-              <a href="/">Home</a>
-              <a href="/Category">Category</a>
-              <a href="">Go Green</a>
-              <a href="">Luxury Furnitures</a>
-              <a href="">By Style </a>
-              <a href="">About Us </a>
-              <a href="">Contact Us </a>
+              <a href="/home">Home</a>
+              <a href="/category">Category</a>
+              <a href="/gogreen">Go Green</a>
+              <a href="/luxuryfinishes">Luxury Furnitures</a>
+              <a href="/bystyle">By Style </a>
+              <a href="/aboutus">About Us </a>
+              <a href="/contactus">Contact Us </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,67 @@
+.about{
+    border-bottom: 1px solid rgb(229, 229, 229);
+  }
+  .leftabout {
+    height: 80vh;
+    width: 50%;
+    padding: 130px 0px 0px 30px;
+  }
+  .rightabout {
+    height: 10vh;
+    width: 40%;
+  }
+  .leftabout h1 {
+    font-weight: 700;
+    font-size: 64px;
+    height: 0vh;
+    width: 90%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* border: 1px solid black; */
+  }
+  .leftabout p {
+    font-weight: bold;
+    font-size: 24px;
+    width: 90%;
+    color: #1b1c1b;
+    margin-top: 80px;
+  }
+  
+  .aboutbtn {
+    width: 10%;
+    border: 1px solid black;
+  }
+  .aboutbtn {
+    height: 51px;
+    width: 201px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: "Roboto";
+    border-radius: 6px;
+    color: rgb(63, 63, 63);
+    margin-left: 0;
+  }
+  #aboutbtn1{
+      background-color:#449f5a;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: aliceblue;
+      border: white;
+  }
+  #aboutbtn1:hover {
+    color: rgb(236, 233, 233);
+    background: #35874a;
+    cursor: pointer;
+    border: transparent;
+  }
+  
+  .aboutimg{
+      display:block;
+      margin-top: 9em;
+      height: 60vh;
+      transition: all .5s ease-in-out;
+  }
+  
+  
+  .aboutimg:hover{
+      transform: scale(1.1);
+  }
